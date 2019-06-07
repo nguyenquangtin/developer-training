@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T01:56:30.388Z" timestamp="2019-06-06T01:56:30.388Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="General Training" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t3" to="t1" to-position="0" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:04:12.733Z" timestamp="2019-06-06T02:04:12.733Z">
+    <change idref="t8" to="t1" to-position="1" resolved="yes">
+      <change idref="t8" attribute="title" type="string" to="Github"/>
+    </change>
+    <change idref="t4" to="t1" to-position="2" resolved="yes">
+      <change idref="t4" attribute="title" type="string" to="SSH"/>
+    </change>
+    <change idref="t5" to="t1" to-position="3" resolved="yes">
+      <change idref="t5" attribute="title" type="string" to="Command-line/ Terminal"/>
+    </change>
+    <change idref="t6" to="t1" to-position="4" resolved="yes">
+      <change idref="t6" attribute="title" type="string" to="Data Structures and Algorithms"/>
+    </change>
+    <change idref="t7" to="t1" to-position="5" resolved="yes">
+      <change idref="t7" attribute="title" type="string" to="Character Encodings"/>
+    </change>
+    <change idref="t2" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t2" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t2" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t2" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t2" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t2" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="title" type="string" from="Task 1" to="Git " resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:09:13.805Z" timestamp="2019-06-06T02:09:13.805Z">
+    <change idref="t7" from="t1" from-position="5" resolved="yes">
+      <change idref="t7" attribute="title" type="string" to="Character Encodings"/>
+    </change>
+    <change idref="t6" from="t1" from-position="4" resolved="yes">
+      <change idref="t6" attribute="title" type="string" to="Data Structures and Algorithms"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:09:54.465Z" timestamp="2019-06-06T02:09:54.465Z">
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-11T01:15:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-13T01:15:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-13T01:15:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-11T01:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:10:33.383Z" timestamp="2019-06-06T02:10:33.383Z">
+    <change idref="t4" attribute="effort" type="real" from="28800" to="10800" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="28800" to="9900" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:11:48.242Z" timestamp="2019-06-06T02:11:48.242Z">
+    <change idref="t3" attribute="effort" type="real" from="28800" to="720" resolved="yes"/>
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="1 {20}" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" to="1 {20}" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1 {20}" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="28800" to="720" resolved="yes"/>
+    <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-11T01:15:00.000Z" to="2019-06-11T06:15:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="internalAssignments" type="string" from="" to="1 {20}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:11:57.403Z" timestamp="2019-06-06T02:11:57.403Z">
+    <change idref="t4" attribute="effort" type="real" from="10800" to="720" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="9900" to="720" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:16:34.220Z" timestamp="2019-06-06T02:16:34.220Z">
+    <change idref="t2" attribute="title" type="string" from="" to="Front End" resolved="yes"/>
+    <change idref="t11" to="t2" to-position="0" resolved="yes">
+      <change idref="t11" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t11" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t11" attribute="title" type="string" to="HTML5"/>
+    </change>
+    <change idref="t10" to="t2" to-position="1" resolved="yes">
+      <change idref="t10" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t10" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t10" attribute="title" type="string" to="CSS 3"/>
+    </change>
+    <change idref="t12" to="t2" to-position="2" resolved="yes">
+      <change idref="t12" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t17" to="t10" to-position="0" resolved="yes">
+      <change idref="t17" attribute="title" type="string" to="Basic"/>
+    </change>
+    <change idref="t18" to="t10" to-position="1" resolved="yes">
+      <change idref="t18" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t18" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t18" attribute="title" type="string" to="Layout"/>
+    </change>
+    <change idref="t24" to="t10" to-position="2" resolved="yes">
+      <change idref="t24" attribute="title" type="string" to="Media Query"/>
+    </change>
+    <change idref="t13" to="t11" to-position="0" resolved="yes">
+      <change idref="t13" attribute="title" type="string" to="Basic"/>
+    </change>
+    <change idref="t14" to="t11" to-position="1" resolved="yes">
+      <change idref="t14" attribute="title" type="string" to="Senmantic HTML"/>
+    </change>
+    <change idref="t15" to="t11" to-position="2" resolved="yes">
+      <change idref="t15" attribute="title" type="string" to="SEO"/>
+    </change>
+    <change idref="t16" to="t11" to-position="3" resolved="yes">
+      <change idref="t16" attribute="title" type="string" to="Accessibility"/>
+    </change>
+    <change idref="t19" to="t18" to-position="0" resolved="yes">
+      <change idref="t19" attribute="title" type="string" to="Float"/>
+    </change>
+    <change idref="t20" to="t18" to-position="1" resolved="yes">
+      <change idref="t20" attribute="title" type="string" to="Positioning"/>
+    </change>
+    <change idref="t21" to="t18" to-position="2" resolved="yes">
+      <change idref="t21" attribute="title" type="string" to="Box Model"/>
+    </change>
+    <change idref="t22" to="t18" to-position="3" resolved="yes">
+      <change idref="t22" attribute="title" type="string" to="CSS Grid"/>
+    </change>
+    <change idref="t23" to="t18" to-position="4" resolved="yes">
+      <change idref="t23" attribute="title" type="string" to="Flex Box"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:16:36.946Z" timestamp="2019-06-06T02:16:36.946Z">
+    <change idref="t10" attribute="title" type="string" from="CSS 3" to="CSS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:19:15.325Z" timestamp="2019-06-06T02:19:15.325Z">
+    <change idref="t29" to="t2" to-position="3" resolved="yes">
+      <change idref="t29" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t29" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t29" attribute="title" type="string" to="Package Manager"/>
+    </change>
+    <change idref="t32" to="t2" to-position="4" resolved="yes">
+      <change idref="t32" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t32" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t32" attribute="title" type="string" to="CSS Pre-processors"/>
+    </change>
+    <change idref="t35" to="t2" to-position="5" resolved="yes">
+      <change idref="t35" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t12" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t12" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t12" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t12" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t12" attribute="title" type="string" from="Task 1" to="Basic of Javascript" resolved="yes"/>
+    <change idref="t12" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t12" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t12" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t12" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t12" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t12" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t25" to="t12" to-position="0" resolved="yes">
+      <change idref="t25" attribute="title" type="string" to="Syntax &amp; Basic Constructs"/>
+    </change>
+    <change idref="t26" to="t12" to-position="1" resolved="yes">
+      <change idref="t26" attribute="title" type="string" to="DOM Manipulation"/>
+    </change>
+    <change idref="t27" to="t12" to-position="2" resolved="yes">
+      <change idref="t27" attribute="title" type="string" to="Fetch API / Ajax (XHR)"/>
+    </change>
+    <change idref="t28" to="t12" to-position="3" resolved="yes">
+      <change idref="t28" attribute="title" type="string" to="ES6 "/>
+    </change>
+    <change idref="t30" to="t29" to-position="0" resolved="yes">
+      <change idref="t30" attribute="title" type="string" to="NPM"/>
+    </change>
+    <change idref="t31" to="t29" to-position="1" resolved="yes">
+      <change idref="t31" attribute="title" type="string" to="Yarn"/>
+    </change>
+    <change idref="t33" to="t32" to-position="0" resolved="yes">
+      <change idref="t33" attribute="title" type="string" to="SASS"/>
+    </change>
+    <change idref="t34" to="t32" to-position="1" resolved="yes">
+      <change idref="t34" attribute="title" type="string" to="Others"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:19:33.100Z" timestamp="2019-06-06T02:19:33.100Z">
+    <change idref="t38" to="t2" to-position="6" resolved="yes">
+      <change idref="t38" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t35" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t35" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t35" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t35" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t35" attribute="title" type="string" from="Task 1" to="CSS Frameworks" resolved="yes"/>
+    <change idref="t35" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t35" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t35" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t35" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t35" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t35" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t35" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t35" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t36" to="t35" to-position="0" resolved="yes">
+      <change idref="t36" attribute="title" type="string" to="Bootstrap"/>
+    </change>
+    <change idref="t37" to="t35" to-position="1" resolved="yes">
+      <change idref="t37" attribute="title" type="string" to="Materialize CSS"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:19:59.849Z" timestamp="2019-06-06T02:19:59.849Z">
+    <change idref="t39" to="t2" to-position="7" resolved="yes">
+      <change idref="t39" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t38" attribute="title" type="string" from="Task 1" to="CSS Artchitecture" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:20:13.483Z" timestamp="2019-06-06T02:20:13.483Z">
+    <change idref="t41" to="t2" to-position="7" resolved="yes">
+      <change idref="t41" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t38" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t38" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t38" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t38" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t38" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t38" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t38" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t38" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t38" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t38" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t38" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t38" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t39" from="t2" from-position="7" to="t38" to-position="0" resolved="yes"/>
+    <change idref="t40" to="t38" to-position="1" resolved="yes">
+      <change idref="t40" attribute="title" type="string" to="SMACSS"/>
+    </change>
+    <change idref="t39" attribute="title" type="string" from="Task 1" to="BEM" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:20:36.191Z" timestamp="2019-06-06T02:20:36.191Z">
+    <change idref="t40" from="t38" from-position="1" resolved="yes">
+      <change idref="t40" attribute="title" type="string" to="SMACSS"/>
+    </change>
+    <change idref="t39" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:21:06.346Z" timestamp="2019-06-06T02:21:06.346Z">
+    <change idref="t42" to="t-1" to-position="2" resolved="yes">
+      <change idref="t42" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t42" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t42" attribute="title" type="string" to="Advanced Frontend"/>
+    </change>
+    <change idref="t2" attribute="title" type="string" from="Front End" to="Basic Front End" resolved="yes"/>
+    <change idref="t41" from="t2" from-position="7" resolved="yes">
+      <change idref="t41" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t43" to="t42" to-position="0" resolved="yes">
+      <change idref="t43" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:22:41.935Z" timestamp="2019-06-06T02:22:41.935Z">
+    <change idref="t47" to="t42" to-position="1" resolved="yes">
+      <change idref="t47" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t47" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t47" attribute="title" type="string" to="Module Bundlers"/>
+    </change>
+    <change idref="t50" to="t42" to-position="2" resolved="yes">
+      <change idref="t50" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t43" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t43" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t43" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t43" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t43" attribute="title" type="string" from="Task 1" to="Build Tools" resolved="yes"/>
+    <change idref="t43" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t43" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t43" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t43" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t43" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t43" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t43" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t43" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t44" to="t43" to-position="0" resolved="yes">
+      <change idref="t44" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t44" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t44" attribute="title" type="string" to="Linters"/>
+    </change>
+    <change idref="t45" to="t44" to-position="0" resolved="yes">
+      <change idref="t45" attribute="title" type="string" to="Prettier"/>
+    </change>
+    <change idref="t46" to="t44" to-position="1" resolved="yes">
+      <change idref="t46" attribute="title" type="string" to="ESLint"/>
+    </change>
+    <change idref="t48" to="t47" to-position="0" resolved="yes">
+      <change idref="t48" attribute="title" type="string" to="Webpack"/>
+    </change>
+    <change idref="t49" to="t47" to-position="1" resolved="yes">
+      <change idref="t49" attribute="title" type="string" to="Parcel"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:23:33.160Z" timestamp="2019-06-06T02:23:33.160Z">
+    <change idref="t50" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t50" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t50" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t50" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t50" attribute="title" type="string" from="Task 1" to="Framwork" resolved="yes"/>
+    <change idref="t50" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t50" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t50" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t50" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t50" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t50" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t50" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t50" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t51" to="t50" to-position="0" resolved="yes">
+      <change idref="t51" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t51" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t51" attribute="title" type="string" to="React"/>
+    </change>
+    <change idref="t54" to="t50" to-position="1" resolved="yes">
+      <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t54" attribute="title" type="string" to="Vue.js"/>
+    </change>
+    <change idref="t55" to="t50" to-position="2" resolved="yes">
+      <change idref="t55" attribute="title" type="string" to="Angular"/>
+    </change>
+    <change idref="t52" to="t51" to-position="0" resolved="yes">
+      <change idref="t52" attribute="title" type="string" to="Redux"/>
+    </change>
+    <change idref="t53" to="t51" to-position="1" resolved="yes">
+      <change idref="t53" attribute="title" type="string" to="MobX"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:24:14.932Z" timestamp="2019-06-06T02:24:14.932Z">
+    <change idref="t57" to="t42" to-position="3" resolved="yes">
+      <change idref="t57" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t57" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t57" attribute="title" type="string" to="CSS in JS"/>
+    </change>
+    <change idref="t60" to="t42" to-position="4" resolved="yes">
+      <change idref="t60" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t60" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t60" attribute="title" type="string" to="Testing your Apps"/>
+    </change>
+    <change idref="t53" from="t51" from-position="1" resolved="yes">
+      <change idref="t53" attribute="title" type="string" to="MobX"/>
+    </change>
+    <change idref="t52" from="t51" from-position="0" resolved="yes">
+      <change idref="t52" attribute="title" type="string" to="Redux"/>
+    </change>
+    <change idref="t58" to="t57" to-position="0" resolved="yes">
+      <change idref="t58" attribute="title" type="string" to="Styled Components"/>
+    </change>
+    <change idref="t59" to="t57" to-position="1" resolved="yes">
+      <change idref="t59" attribute="title" type="string" to="CSS Modules"/>
+    </change>
+    <change idref="t61" to="t60" to-position="0" resolved="yes">
+      <change idref="t61" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:29:14.460Z" timestamp="2019-06-06T02:29:14.460Z">
+    <change idref="t69" to="t-1" to-position="3" resolved="yes">
+      <change idref="t69" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t69" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t69" attribute="title" type="string" to="Advanced Frontend 2"/>
+    </change>
+    <change idref="t42" attribute="title" type="string" from="Advanced Frontend" to="Advanced Frontend 1" resolved="yes"/>
+    <change idref="t64" to="t42" to-position="5" resolved="yes">
+      <change idref="t64" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t64" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t64" attribute="title" type="string" to="Testing Theory"/>
+    </change>
+    <change idref="t62" to="t60" to-position="1" resolved="yes">
+      <change idref="t62" attribute="title" type="string" to="Enzyme"/>
+    </change>
+    <change idref="t63" to="t60" to-position="2" resolved="yes">
+      <change idref="t63" attribute="title" type="string" to="Cypress"/>
+    </change>
+    <change idref="t61" attribute="title" type="string" from="Task 1" to="Jest" resolved="yes"/>
+    <change idref="t71" to="t70" to-position="0" resolved="yes">
+      <change idref="t71" attribute="title" type="string" to="TypeScript"/>
+    </change>
+    <change idref="t72" to="t70" to-position="1" resolved="yes">
+      <change idref="t72" attribute="title" type="string" to="Flow"/>
+    </change>
+    <change idref="t74" to="t73" to-position="0" resolved="yes">
+      <change idref="t74" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t74" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t74" attribute="title" type="string" to="React.js"/>
+    </change>
+    <change idref="t76" to="t73" to-position="1" resolved="yes">
+      <change idref="t76" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t76" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t76" attribute="title" type="string" to="Static Site Generators"/>
+    </change>
+    <change idref="t78" to="t73" to-position="2" resolved="yes">
+      <change idref="t78" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t78" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t78" attribute="title" type="string" to="Mobile App"/>
+    </change>
+    <change idref="t75" to="t74" to-position="0" resolved="yes">
+      <change idref="t75" attribute="title" type="string" to="Next.js"/>
+    </change>
+    <change idref="t77" to="t76" to-position="0" resolved="yes">
+      <change idref="t77" attribute="title" type="string" to="Gatsby JS"/>
+    </change>
+    <change idref="t79" to="t78" to-position="0" resolved="yes">
+      <change idref="t79" attribute="title" type="string" to="React Native"/>
+    </change>
+    <change idref="t65" to="t64" to-position="0" resolved="yes">
+      <change idref="t65" attribute="title" type="string" to="Unit"/>
+    </change>
+    <change idref="t66" to="t64" to-position="1" resolved="yes">
+      <change idref="t66" attribute="title" type="string" to="Integration"/>
+    </change>
+    <change idref="t67" to="t64" to-position="2" resolved="yes">
+      <change idref="t67" attribute="title" type="string" to="Functional"/>
+    </change>
+    <change idref="t70" to="t69" to-position="0" resolved="yes">
+      <change idref="t70" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t70" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t70" attribute="title" type="string" to="Type Checkers"/>
+    </change>
+    <change idref="t73" to="t69" to-position="1" resolved="yes">
+      <change idref="t73" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t73" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t73" attribute="title" type="string" to="Server Side Redering"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:29:22.554Z" timestamp="2019-06-06T02:29:22.554Z">
+    <change idref="t79" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:29:25.962Z" timestamp="2019-06-06T02:29:25.962Z">
+    <change idref="t81" to="t-1" to-position="4" resolved="yes">
+      <change idref="t81" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:30:46.816Z" timestamp="2019-06-06T02:30:46.816Z">
+    <change idref="t81" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t81" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t81" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t81" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t81" attribute="title" type="string" from="Task 1" to="Backend" resolved="yes"/>
+    <change idref="t81" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t81" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t81" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t81" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t81" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t81" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t81" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t81" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t82" to="t81" to-position="0" resolved="yes">
+      <change idref="t82" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:31:07.230Z" timestamp="2019-06-06T02:31:07.230Z">
+    <change idref="t83" to="t81" to-position="1" resolved="yes">
+      <change idref="t83" attribute="title" type="string" to="TypeScript"/>
+    </change>
+    <change idref="t84" to="t81" to-position="2" resolved="yes">
+      <change idref="t84" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t82" attribute="title" type="string" from="Task 1" to="Node.js" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:31:57.360Z" timestamp="2019-06-06T02:31:57.360Z">
+    <change idref="t82" from="t81" from-position="0" resolved="yes">
+      <change idref="t82" attribute="title" type="string" to="Node.js"/>
+    </change>
+    <change idref="t88" to="t81" to-position="1" resolved="yes">
+      <change idref="t88" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t84" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t84" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t84" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t84" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t84" attribute="title" type="string" from="Task 1" to="Scripting Language" resolved="yes"/>
+    <change idref="t84" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t84" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t84" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t84" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t84" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t84" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t84" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t84" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t86" to="t84" to-position="0" resolved="yes">
+      <change idref="t86" attribute="title" type="string" to="Node.js"/>
+    </change>
+    <change idref="t87" to="t84" to-position="1" resolved="yes">
+      <change idref="t87" attribute="title" type="string" to="PHP"/>
+    </change>
+    <change idref="t83" from="t81" from-position="1" to="t84" to-position="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:32:32.363Z" timestamp="2019-06-06T02:32:32.363Z">
+    <change idref="t88" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t88" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t88" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t88" attribute="title" type="string" from="Task 1" to="Package Manger" resolved="yes"/>
+    <change idref="t88" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t88" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t88" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t88" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t89" to="t88" to-position="0" resolved="yes">
+      <change idref="t89" attribute="title" type="string" to="npm"/>
+    </change>
+    <change idref="t90" to="t88" to-position="1" resolved="yes">
+      <change idref="t90" attribute="title" type="string" to="composer"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:34:48.731Z" timestamp="2019-06-06T02:34:48.731Z">
+    <change idref="t91" to="t81" to-position="2" resolved="yes">
+      <change idref="t91" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t91" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t91" attribute="title" type="string" to="Testing"/>
+    </change>
+    <change idref="t95" to="t81" to-position="3" resolved="yes">
+      <change idref="t95" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t95" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t95" attribute="title" type="string" to="Relational Database"/>
+    </change>
+    <change idref="t102" to="t81" to-position="4" resolved="yes">
+      <change idref="t102" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t102" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t102" attribute="title" type="string" to="NoSQL"/>
+    </change>
+    <change idref="t100" to="t81" to-position="5" resolved="yes">
+      <change idref="t100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t100" attribute="title" type="string" to="Framework"/>
+    </change>
+    <change idref="t96" to="t95" to-position="0" resolved="yes">
+      <change idref="t96" attribute="title" type="string" to="MySQL"/>
+    </change>
+    <change idref="t97" to="t95" to-position="1" resolved="yes">
+      <change idref="t97" attribute="title" type="string" to="MariaDB"/>
+    </change>
+    <change idref="t98" to="t95" to-position="2" resolved="yes">
+      <change idref="t98" attribute="title" type="string" to="PostgreSQL"/>
+    </change>
+    <change idref="t101" to="t100" to-position="0" resolved="yes">
+      <change idref="t101" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t103" to="t102" to-position="0" resolved="yes">
+      <change idref="t103" attribute="title" type="string" to="MongoDB"/>
+    </change>
+    <change idref="t92" to="t91" to-position="0" resolved="yes">
+      <change idref="t92" attribute="title" type="string" to="PHP Unit"/>
+    </change>
+    <change idref="t93" to="t91" to-position="1" resolved="yes">
+      <change idref="t93" attribute="title" type="string" to="Mocha, Chai, Sinon, Mockery"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:34:55.517Z" timestamp="2019-06-06T02:34:55.517Z">
+    <change idref="t102" attribute="title" type="string" from="NoSQL" to="NoSQL Database" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:36:53.012Z" timestamp="2019-06-06T02:36:53.012Z">
+    <change idref="t100" attribute="title" type="string" from="Framework" to="Authentication/ Authorization" resolved="yes"/>
+    <change idref="t101" from="t100" from-position="0" resolved="yes">
+      <change idref="t101" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t104" to="t100" to-position="0" resolved="yes">
+      <change idref="t104" attribute="title" type="string" to="OAuth"/>
+    </change>
+    <change idref="t105" to="t100" to-position="1" resolved="yes">
+      <change idref="t105" attribute="title" type="string" to="Basic Authentication"/>
+    </change>
+    <change idref="t106" to="t100" to-position="2" resolved="yes">
+      <change idref="t106" attribute="title" type="string" to="Token Authentication"/>
+    </change>
+    <change idref="t107" to="t100" to-position="3" resolved="yes">
+      <change idref="t107" attribute="title" type="string" to="JWT"/>
+    </change>
+    <change idref="t108" to="t100" to-position="4" resolved="yes">
+      <change idref="t108" attribute="title" type="string" to="OpenID (optonal)"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:37:14.366Z" timestamp="2019-06-06T02:37:14.366Z">
+    <change idref="t109" to="t81" to-position="6" resolved="yes">
+      <change idref="t109" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t109" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t109" attribute="title" type="string" to="Search Engine "/>
+    </change>
+    <change idref="t111" to="t81" to-position="7" resolved="yes">
+      <change idref="t111" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t110" to="t109" to-position="0" resolved="yes">
+      <change idref="t110" attribute="title" type="string" to="ElasticSearch"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:37:51.525Z" timestamp="2019-06-06T02:37:51.525Z">
+    <change idref="t114" to="t81" to-position="8" resolved="yes">
+      <change idref="t114" attribute="title" type="string" to="Web Sockets"/>
+    </change>
+    <change idref="t115" to="t81" to-position="9" resolved="yes">
+      <change idref="t115" attribute="title" type="string" to="GraphQL"/>
+    </change>
+    <change idref="t111" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t111" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t111" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t111" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t111" attribute="title" type="string" from="Task 1" to="Web Servers" resolved="yes"/>
+    <change idref="t111" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t111" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t111" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t111" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t111" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t111" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t111" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t111" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t112" to="t111" to-position="0" resolved="yes">
+      <change idref="t112" attribute="title" type="string" to="Apache"/>
+    </change>
+    <change idref="t113" to="t111" to-position="1" resolved="yes">
+      <change idref="t113" attribute="title" type="string" to="Nginx"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:45:26.454Z" timestamp="2019-06-06T02:45:26.454Z">
+    <change idref="t116" to="t-1" to-position="5" resolved="yes">
+      <change idref="t116" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t116" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t116" attribute="title" type="string" to="Devops"/>
+    </change>
+    <change idref="t118" to="t117" to-position="0" resolved="yes">
+      <change idref="t118" attribute="title" type="string" to="Python"/>
+    </change>
+    <change idref="t119" to="t117" to-position="1" resolved="yes">
+      <change idref="t119" attribute="title" type="string" to="Go"/>
+    </change>
+    <change idref="t121" to="t120" to-position="0" resolved="yes">
+      <change idref="t121" attribute="title" type="string" to="Ubuntu"/>
+    </change>
+    <change idref="t122" to="t120" to-position="1" resolved="yes">
+      <change idref="t122" attribute="title" type="string" to="CentOS"/>
+    </change>
+    <change idref="t125" to="t124" to-position="0" resolved="yes">
+      <change idref="t125" attribute="title" type="string" to="Jenkins"/>
+    </change>
+    <change idref="t126" to="t124" to-position="1" resolved="yes">
+      <change idref="t126" attribute="title" type="string" to="Travis CI"/>
+    </change>
+    <change idref="t127" to="t124" to-position="2" resolved="yes">
+      <change idref="t127" attribute="title" type="string" to="Circle CI"/>
+    </change>
+    <change idref="t129" to="t128" to-position="0" resolved="yes">
+      <change idref="t129" attribute="title" type="string" to="Digital Ocean/ Vultr"/>
+    </change>
+    <change idref="t130" to="t128" to-position="1" resolved="yes">
+      <change idref="t130" attribute="title" type="string" to="AWS"/>
+    </change>
+    <change idref="t131" to="t128" to-position="2" resolved="yes">
+      <change idref="t131" attribute="title" type="string" to="Google Could"/>
+    </change>
+    <change idref="t117" to="t116" to-position="0" resolved="yes">
+      <change idref="t117" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t117" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t117" attribute="title" type="string" to="Language "/>
+    </change>
+    <change idref="t120" to="t116" to-position="1" resolved="yes">
+      <change idref="t120" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t120" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t120" attribute="title" type="string" to="OS"/>
+    </change>
+    <change idref="t124" to="t116" to-position="2" resolved="yes">
+      <change idref="t124" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t124" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t124" attribute="title" type="string" to="CI/CD"/>
+    </change>
+    <change idref="t128" to="t116" to-position="3" resolved="yes">
+      <change idref="t128" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t128" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t128" attribute="title" type="string" to="Cloud"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:46:06.776Z" timestamp="2019-06-06T02:46:06.776Z">
+    <change idref="t132" to="t116" to-position="4" resolved="yes">
+      <change idref="t132" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t132" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t132" attribute="title" type="string" to="Code Infurstructure"/>
+    </change>
+    <change idref="t135" to="t133" to-position="0" resolved="yes">
+      <change idref="t135" attribute="title" type="string" to="Docker"/>
+    </change>
+    <change idref="t133" to="t132" to-position="0" resolved="yes">
+      <change idref="t133" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t133" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t133" attribute="title" type="string" to="Container"/>
+    </change>
+    <change idref="t134" to="t132" to-position="1" resolved="yes">
+      <change idref="t134" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:46:59.773Z" timestamp="2019-06-06T02:46:59.773Z">
+    <change idref="t134" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t134" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t134" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t134" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t134" attribute="title" type="string" from="Task 1" to="Configurations" resolved="yes"/>
+    <change idref="t134" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t134" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t134" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t134" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t134" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t134" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t134" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t134" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t137" to="t134" to-position="0" resolved="yes">
+      <change idref="t137" attribute="title" type="string" to="Ansible"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:48:18.351Z" timestamp="2019-06-06T02:48:18.351Z">
+    <change idref="t141" to="t116" to-position="2" resolved="yes">
+      <change idref="t141" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t141" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t141" attribute="title" type="string" to="Deploying project"/>
+    </change>
+    <change idref="t146" to="t143" to-position="0" resolved="yes">
+      <change idref="t146" attribute="title" type="string" to="top"/>
+    </change>
+    <change idref="t147" to="t143" to-position="1" resolved="yes">
+      <change idref="t147" attribute="title" type="string" to="htop"/>
+    </change>
+    <change idref="t142" to="t141" to-position="0" resolved="yes">
+      <change idref="t142" attribute="title" type="string" to="bash script"/>
+    </change>
+    <change idref="t143" to="t141" to-position="1" resolved="yes">
+      <change idref="t143" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t143" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t143" attribute="title" type="string" to="monitoring"/>
+    </change>
+    <change idref="t144" to="t141" to-position="2" resolved="yes">
+      <change idref="t144" attribute="title" type="string" to="compliing"/>
+    </change>
+    <change idref="t145" to="t141" to-position="3" resolved="yes">
+      <change idref="t145" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:49:16.096Z" timestamp="2019-06-06T02:49:16.096Z">
+    <change idref="t149" to="t141" to-position="3" resolved="yes">
+      <change idref="t149" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t149" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t149" attribute="title" type="string" to="network"/>
+    </change>
+    <change idref="t153" to="t143" to-position="2" resolved="yes">
+      <change idref="t153" attribute="title" type="string" to="ps"/>
+    </change>
+    <change idref="t144" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t144" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t144" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t144" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t144" attribute="title" type="string" from="compliing" to="Compliing" resolved="yes"/>
+    <change idref="t144" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t144" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t144" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t144" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t144" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t144" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t144" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t144" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t148" to="t144" to-position="0" resolved="yes">
+      <change idref="t148" attribute="title" type="string" to="gcc, make"/>
+    </change>
+    <change idref="t150" to="t149" to-position="0" resolved="yes">
+      <change idref="t150" attribute="title" type="string" to="ping"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:49:58.431Z" timestamp="2019-06-06T02:49:58.431Z">
+    <change idref="t155" to="t141" to-position="5" resolved="yes">
+      <change idref="t155" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t155" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t155" attribute="title" type="string" to="Server"/>
+    </change>
+    <change idref="t156" to="t155" to-position="0" resolved="yes">
+      <change idref="t156" attribute="title" type="string" to="Reverse Proxy"/>
+    </change>
+    <change idref="t157" to="t155" to-position="1" resolved="yes">
+      <change idref="t157" attribute="title" type="string" to="Forward Proxy"/>
+    </change>
+    <change idref="t158" to="t155" to-position="2" resolved="yes">
+      <change idref="t158" attribute="title" type="string" to="Caching"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:50:11.286Z" timestamp="2019-06-06T02:50:11.286Z">
+    <change idref="t159" to="t155" to-position="3" resolved="yes">
+      <change idref="t159" attribute="title" type="string" to="Load Balancer"/>
+    </change>
+    <change idref="t160" to="t155" to-position="4" resolved="yes">
+      <change idref="t160" attribute="title" type="string" to="FireWall"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:50:32.479Z" timestamp="2019-06-06T02:50:32.479Z">
+    <change idref="t3" attribute="effort" type="real" from="720" to="3600" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="720" to="3600" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="720" to="3600" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="720" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:51:02.688Z" timestamp="2019-06-06T02:51:02.688Z">
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-11T01:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-11T01:15:00.000Z" to="2019-06-11T01:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-13T01:15:00.000Z" to="2019-06-13T01:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-13T01:15:00.000Z" to="2019-06-13T01:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-11T06:15:00.000Z" to="2019-06-11T06:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:51:12.348Z" timestamp="2019-06-06T02:51:12.348Z">
+    <change idref="t2" attribute="internalPrerequisitesString" type="string" to="1FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:52:55.295Z" timestamp="2019-06-06T02:52:55.295Z">
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:53:01.026Z" timestamp="2019-06-06T02:53:01.026Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-19T09:45:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:53:03.962Z" timestamp="2019-06-06T02:53:03.962Z">
+    <change idref="t10" attribute="styleDict" type="dict" to="{&#10;    &quot;font-size&quot; = 11;&#10;}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:53:16.345Z" timestamp="2019-06-06T02:53:16.345Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-19T09:45:00.000Z" to="2019-06-20T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:53:33.924Z" timestamp="2019-06-06T02:53:33.924Z">
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-25T01:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:54:49.709Z" timestamp="2019-06-06T02:54:49.709Z">
+    <change idref="t3" attribute="internalAssignments" type="string" from="1 {20}" to="" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="1 {20}" to="" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="1 {20}" to="" resolved="yes"/>
+    <change idref="t8" attribute="internalAssignments" type="string" from="1 {20}" to="" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:56:10.345Z" timestamp="2019-06-06T02:56:10.345Z">
+    <change idref="t3" attribute="effort" type="real" from="3600" to="28800" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="3600" to="28800" resolved="yes"/>
+    <change idref="t4" attribute="startLockedDate" type="date" to="2019-06-18T01:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="3600" to="28800" resolved="yes"/>
+    <change idref="t5" attribute="startLockedDate" type="date" to="2019-06-18T01:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="3600" to="28800" resolved="yes"/>
+    <change idref="t8" attribute="startLockedDate" type="date" to="2019-06-11T06:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:56:37.019Z" timestamp="2019-06-06T02:56:37.019Z">
+    <change idref="t1" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t3" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t4" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t5" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t8" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:58:15.497Z" timestamp="2019-06-06T02:58:15.497Z">
+    <change idref="t3" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:58:50.250Z" timestamp="2019-06-06T02:58:50.250Z">
+    <change idref="t4" attribute="effort" type="real" from="14400" to="18900" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T02:59:07.963Z" timestamp="2019-06-06T02:59:07.963Z">
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t8" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T03:00:15.213Z" timestamp="2019-06-06T03:00:15.213Z">
+    <change idref="t3" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="18900" to="7200" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T03:00:38.999Z" timestamp="2019-06-06T03:00:38.999Z">
+    <change idref="t2" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T03:00:46.094Z" timestamp="2019-06-06T03:00:46.094Z">
+    <change idref="t3" attribute="effort" type="real" from="7200" to="14400" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="7200" to="14400" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="7200" to="14400" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="7200" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T03:30:45.967Z" timestamp="2019-06-06T03:30:45.967Z">
+    <change idref="t35" from="t2" from-position="5" resolved="yes">
+      <change idref="t35" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t35" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t35" attribute="title" type="string" to="CSS Frameworks"/>
+    </change>
+    <change idref="t25" attribute="title" type="string" from="Syntax &amp; Basic Constructs" to="Syntax &amp; Basic Constructs x " resolved="yes"/>
+    <change idref="t26" attribute="title" type="string" from="DOM Manipulation" to="DOM Manipulation x" resolved="yes"/>
+    <change idref="t27" attribute="title" type="string" from="Fetch API / Ajax (XHR)" to="Fetch API / Ajax (XHR) x " resolved="yes"/>
+    <change idref="t28" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNjcxXGNvY29hc3VicnRmNTAwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFRoZW9yeSArIHByYWN0aWNhbCB0aXBzfQ==" resolved="yes"/>
+    <change idref="t49" from="t47" from-position="1" resolved="yes">
+      <change idref="t49" attribute="title" type="string" to="Parcel"/>
+    </change>
+    <change idref="t55" from="t50" from-position="2" resolved="yes">
+      <change idref="t55" attribute="title" type="string" to="Angular"/>
+    </change>
+    <change idref="t58" attribute="title" type="string" from="Styled Components" to="Styled Components - optional" resolved="yes"/>
+    <change idref="t77" attribute="title" type="string" from="Gatsby JS" to="Gatsby JS - blog - netlify" resolved="yes"/>
+    <change idref="t87" from="t84" from-position="1" resolved="yes">
+      <change idref="t87" attribute="title" type="string" to="PHP"/>
+    </change>
+    <change idref="t90" from="t88" from-position="1" resolved="yes">
+      <change idref="t90" attribute="title" type="string" to="composer"/>
+    </change>
+    <change idref="t92" from="t91" from-position="0" resolved="yes">
+      <change idref="t92" attribute="title" type="string" to="PHP Unit"/>
+    </change>
+    <change idref="t98" from="t95" from-position="2" resolved="yes">
+      <change idref="t98" attribute="title" type="string" to="PostgreSQL"/>
+    </change>
+    <change idref="t97" from="t95" from-position="1" resolved="yes">
+      <change idref="t97" attribute="title" type="string" to="MariaDB"/>
+    </change>
+    <change idref="t118" attribute="title" type="string" from="Python" to="Python/ruby" resolved="yes"/>
+    <change idref="t119" attribute="title" type="string" from="Go" to="Golang" resolved="yes"/>
+    <change idref="t131" attribute="title" type="string" from="Google Could" to="Google Cloud" resolved="yes"/>
+    <change idref="t145" from="t141" from-position="4" resolved="yes">
+      <change idref="t145" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-06T03:39:31.511Z" timestamp="2019-06-06T03:39:31.511Z">
+    <change idref="t163" to="t-1" to-position="6" resolved="yes">
+      <change idref="t163" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t163" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-06T02:00:00.000Z"/>
+      <change idref="t163" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t163" attribute="title" type="string" to="Mobile"/>
+    </change>
+    <change idref="t164" to="t163" to-position="0" resolved="yes">
+      <change idref="t164" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-06T02:00:00.000Z"/>
+      <change idref="t164" attribute="title" type="string" to="React Native"/>
+    </change>
+    <change idref="t165" to="t163" to-position="1" resolved="yes">
+      <change idref="t165" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-06T02:00:00.000Z"/>
+      <change idref="t165" attribute="title" type="string" to="Flutter"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:26:58.896Z" timestamp="2019-06-07T03:26:58.896Z">
+    <change idref="t5" from="t1" from-position="3" resolved="yes">
+      <change idref="t5" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t5" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-13T01:00:00.000Z"/>
+      <change idref="t5" attribute="startLockedDate" type="date" to="2019-06-18T01:00:00.000Z"/>
+      <change idref="t5" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t5" attribute="title" type="string" to="Command-line/ Terminal"/>
+    </change>
+    <change idref="t4" from="t1" from-position="2" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t4" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-13T01:00:00.000Z"/>
+      <change idref="t4" attribute="startLockedDate" type="date" to="2019-06-18T01:00:00.000Z"/>
+      <change idref="t4" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}"/>
+      <change idref="t4" attribute="title" type="string" to="SSH"/>
+    </change>
+    <change idref="t166" to="t1" to-position="2" resolved="yes">
+      <change idref="t166" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-06T17:00:00.000Z"/>
+      <change idref="t166" attribute="title" type="string" to="SSH"/>
+    </change>
+    <change idref="t167" to="t1" to-position="3" resolved="yes">
+      <change idref="t167" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-06T17:00:00.000Z"/>
+      <change idref="t167" attribute="title" type="string" to="Bassic Terminal"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:27:11.120Z" timestamp="2019-06-07T03:27:11.120Z">
+    <change idref="t166" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t166" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-06T17:00:00.000Z" to="2019-06-13T02:00:00.000Z" resolved="yes"/>
+    <change idref="t167" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t167" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-06T17:00:00.000Z" to="2019-06-13T06:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:27:14.694Z" timestamp="2019-06-07T03:27:14.694Z">
+    <change idref="t166" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-13T02:00:00.000Z" to="2019-06-13T02:15:00.000Z" resolved="yes"/>
+    <change idref="t167" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-13T06:30:00.000Z" to="2019-06-13T06:45:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:27:25.434Z" timestamp="2019-06-07T03:27:25.434Z">
+    <change idref="t27" from="t12" from-position="2" resolved="yes">
+      <change idref="t27" attribute="title" type="string" to="Fetch API / Ajax (XHR) x "/>
+    </change>
+    <change idref="t26" from="t12" from-position="1" resolved="yes">
+      <change idref="t26" attribute="title" type="string" to="DOM Manipulation x"/>
+    </change>
+    <change idref="t25" from="t12" from-position="0" resolved="yes">
+      <change idref="t25" attribute="title" type="string" to="Syntax &amp; Basic Constructs x "/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:27:45.163Z" timestamp="2019-06-07T03:27:45.163Z">
+    <change idref="t17" from="t10" from-position="0" resolved="yes">
+      <change idref="t17" attribute="title" type="string" to="Basic"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:28:15.328Z" timestamp="2019-06-07T03:28:15.328Z">
+    <change idref="t38" from="t2" from-position="5" resolved="yes">
+      <change idref="t38" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t38" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t38" attribute="title" type="string" to="CSS Artchitecture"/>
+    </change>
+    <change idref="t169" to="t10" to-position="2" resolved="yes">
+      <change idref="t169" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-06T17:00:00.000Z"/>
+      <change idref="t169" attribute="title" type="string" to="CSS Artchitecture - BEM"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:28:23.357Z" timestamp="2019-06-07T03:28:23.357Z">
+    <change idref="t29" from="t2" from-position="3" resolved="yes">
+      <change idref="t29" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t29" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t29" attribute="title" type="string" to="Package Manager"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:28:36.752Z" timestamp="2019-06-07T03:28:36.752Z">
+    <change idref="t2" attribute="title" type="string" from="Basic Front End" to="HTML/CSS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:29:04.975Z" timestamp="2019-06-07T03:29:04.975Z">
+    <change idref="t13" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t14" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t15" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t16" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:29:09.273Z" timestamp="2019-06-07T03:29:09.273Z">
+    <change idref="t14" attribute="internalPrerequisitesString" type="string" to="13FS" resolved="yes"/>
+    <change idref="t15" attribute="internalPrerequisitesString" type="string" to="14FS" resolved="yes"/>
+    <change idref="t16" attribute="internalPrerequisitesString" type="string" to="15FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:29:27.607Z" timestamp="2019-06-07T03:29:27.607Z">
+    <change idref="t12" from="t2" from-position="2" resolved="yes">
+      <change idref="t12" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-25T01:15:00.000Z"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t12" attribute="title" type="string" to="Basic of Javascript"/>
+    </change>
+    <change idref="t28" from="t12" from-position="0" to="t2" to-position="2" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:29:59.014Z" timestamp="2019-06-07T03:29:59.014Z">
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-20T01:00:00.000Z" to="2019-06-17T20:15:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t19" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t20" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t21" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t22" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t23" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:30:06.816Z" timestamp="2019-06-07T03:30:06.816Z">
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T06:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="internalPrerequisitesString" type="string" to="19FS" resolved="yes"/>
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T06:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="internalPrerequisitesString" type="string" to="20FS" resolved="yes"/>
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T06:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="internalPrerequisitesString" type="string" to="21FS" resolved="yes"/>
+    <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T06:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="internalPrerequisitesString" type="string" to="22FS" resolved="yes"/>
+    <change idref="t23" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T06:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:30:15.434Z" timestamp="2019-06-07T03:30:15.434Z">
+    <change idref="t24" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:30:26.811Z" timestamp="2019-06-07T03:30:26.811Z">
+    <change idref="t24" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t169" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:30:30.798Z" timestamp="2019-06-07T03:30:30.798Z">
+    <change idref="t169" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:30:39.991Z" timestamp="2019-06-07T03:30:39.991Z">
+    <change idref="t28" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-20T03:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:30:42.925Z" timestamp="2019-06-07T03:30:42.925Z">
+    <change idref="t24" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:31:05.179Z" timestamp="2019-06-07T03:31:05.179Z">
+    <change idref="t32" from="t2" from-position="3" to="t10" to-position="3" resolved="yes"/>
+    <change idref="t33" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t33" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t34" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
+    <change idref="t34" attribute="scheduleType" type="real" from="0" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:31:17.783Z" timestamp="2019-06-07T03:31:17.783Z">
+    <change idref="t166" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t167" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:32:08.376Z" timestamp="2019-06-07T03:32:08.376Z">
+    <change idref="t24" attribute="noLaterThanConstrainedTaskEnd" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t24" attribute="noLaterThanConstraintDate" type="date" to="2019-06-18T11:00:00.000Z" resolved="yes"/>
+    <change idref="t32" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-18T10:00:00.000Z" resolved="yes"/>
+    <change idref="t33" attribute="noLaterThanConstraintDate" type="date" to="2019-06-18T11:00:00.000Z" resolved="yes"/>
+    <change idref="t34" attribute="noLaterThanConstraintDate" type="date" to="2019-06-18T11:00:00.000Z" resolved="yes"/>
+    <change idref="t42" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t43" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t44" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t45" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t50" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t54" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t64" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t69" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t116" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t163" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-06T02:00:00.000Z" to="2019-06-24T20:15:00.000Z" resolved="yes"/>
+    <change idref="t169" attribute="noLaterThanConstraintDate" type="date" to="2019-06-18T11:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:32:18.930Z" timestamp="2019-06-07T03:32:18.930Z">
+    <change idref="t24" attribute="noLaterThanConstraintDate" type="date" from="2019-06-18T11:00:00.000Z" to="2019-06-20T10:45:00.000Z" resolved="yes"/>
+    <change idref="t32" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-18T10:00:00.000Z" to="2019-06-20T09:45:00.000Z" resolved="yes"/>
+    <change idref="t33" attribute="noLaterThanConstraintDate" type="date" from="2019-06-18T11:00:00.000Z" to="2019-06-20T10:45:00.000Z" resolved="yes"/>
+    <change idref="t34" attribute="noLaterThanConstraintDate" type="date" from="2019-06-18T11:00:00.000Z" to="2019-06-20T10:45:00.000Z" resolved="yes"/>
+    <change idref="t169" attribute="noLaterThanConstraintDate" type="date" from="2019-06-18T11:00:00.000Z" to="2019-06-20T10:45:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:32:27.701Z" timestamp="2019-06-07T03:32:27.701Z">
+    <change idref="t2" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t10" attribute="styleDict" type="dict" from="{&#10;    &quot;font-size&quot; = 11;&#10;}" to="{&#10;    &quot;font-size&quot; = 11;&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t11" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t13" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t14" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t15" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t16" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t18" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t19" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t20" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t21" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t22" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t23" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t24" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t28" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t32" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t33" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t34" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t169" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:33:04.261Z" timestamp="2019-06-07T03:33:04.261Z">
+    <change idref="t51" to="t50" to-position="0" resurrection="yes" resolved="yes">
+      <change idref="t51" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z"/>
+      <change idref="t51" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t51" attribute="title" type="string" to="React"/>
+    </change>
+    <change idref="t54" to="t50" to-position="1" resurrection="yes" resolved="yes">
+      <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t54" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z"/>
+      <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t54" attribute="title" type="string" to="Vue.js"/>
+    </change>
+    <change idref="t51" to="t50" to-position="0" resurrection="yes" resolved="yes">
+      <change idref="t51" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z"/>
+      <change idref="t51" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t51" attribute="title" type="string" to="React"/>
+    </change>
+    <change idref="t54" to="t50" to-position="1" resurrection="yes" resolved="yes">
+      <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t54" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z"/>
+      <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t54" attribute="title" type="string" to="Vue.js"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:33:44.524Z" timestamp="2019-06-07T03:33:44.524Z">
+    <change idref="t69" from="t-1" from-position="3" resolved="yes">
+      <change idref="t69" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t69" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-24T20:15:00.000Z"/>
+      <change idref="t69" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t69" attribute="title" type="string" to="Advanced Frontend 2"/>
+    </change>
+    <change idref="t70" from="t69" from-position="0" to="t42" to-position="1" resolved="yes"/>
+    <change idref="t73" from="t69" from-position="1" to="t42" to-position="7" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:33:51.421Z" timestamp="2019-06-07T03:33:51.421Z">
+    <change idref="t42" attribute="title" type="string" from="Advanced Frontend 1" to="Frontend" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:35:58.474Z" timestamp="2019-06-07T03:35:58.474Z">
+    <change idref="t42" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-02T02:00:00.000Z" resolved="yes"/>
+    <change idref="t50" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-04T02:45:00.000Z" resolved="yes"/>
+    <change idref="t50" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-04T02:45:00.000Z" resolved="yes"/>
+    <change idref="t54" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-04T02:45:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-09T02:15:00.000Z" resolved="yes"/>
+    <change idref="t60" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-11T02:00:00.000Z" resolved="yes"/>
+    <change idref="t70" attribute="noEarlierThanConstraintDate" type="date" to="2019-06-27T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:36:53.539Z" timestamp="2019-06-07T03:36:53.539Z">
+    <change idref="t64" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-15T20:15:00.000Z" resolved="yes"/>
+    <change idref="t73" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-18T02:30:00.000Z" resolved="yes"/>
+    <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-07-23T02:00:00.000Z" resolved="yes"/>
+    <change idref="t91" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-25T02:00:00.000Z" resolved="yes"/>
+    <change idref="t95" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-25T10:45:00.000Z" resolved="yes"/>
+    <change idref="t96" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-25T10:45:00.000Z" resolved="yes"/>
+    <change idref="t100" attribute="noEarlierThanConstraintDate" type="date" to="2019-08-01T02:15:00.000Z" resolved="yes"/>
+    <change idref="t102" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-25T10:45:00.000Z" resolved="yes"/>
+    <change idref="t109" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-25T02:30:00.000Z" resolved="yes"/>
+    <change idref="t111" attribute="noEarlierThanConstraintDate" type="date" to="2019-08-06T02:15:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="noEarlierThanConstraintDate" type="date" to="2019-08-06T02:30:00.000Z" resolved="yes"/>
+    <change idref="t115" attribute="noEarlierThanConstraintDate" type="date" to="2019-07-30T02:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:37:07.968Z" timestamp="2019-06-07T03:37:07.968Z">
+    <change idref="t116" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-08-08T02:15:00.000Z" resolved="yes"/>
+    <change idref="t124" attribute="noEarlierThanConstraintDate" type="date" to="2019-08-12T20:15:00.000Z" resolved="yes"/>
+    <change idref="t128" attribute="noEarlierThanConstraintDate" type="date" to="2019-08-12T20:15:00.000Z" resolved="yes"/>
+    <change idref="t132" attribute="noEarlierThanConstraintDate" type="date" to="2019-08-12T20:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:37:18.432Z" timestamp="2019-06-07T03:37:18.432Z">
+    <change idref="t163" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-24T20:15:00.000Z" to="2019-08-15T02:00:00.000Z" resolved="yes"/>
+    <change idref="t164" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-06T02:00:00.000Z" to="2019-08-15T02:00:00.000Z" resolved="yes"/>
+    <change idref="t165" attribute="noEarlierThanConstraintDate" type="date" from="2019-06-06T02:00:00.000Z" to="2019-08-20T02:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Tony Nguyen" date="2019-06-07T03:38:00.036Z" timestamp="2019-06-07T03:38:00.036Z">
+    <change idref="t42" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.211432&quot;;&#10;        g = &quot;0.458381&quot;;&#10;        r = &quot;0.988&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t81" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.891&quot;;&#10;        g = &quot;0.385803&quot;;&#10;        r = &quot;0.883927&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t116" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.999&quot;;&#10;        g = &quot;0.400599&quot;;&#10;        r = &quot;0.696209&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:10:44.092Z" timestamp="2019-06-06T02:10:44.092Z">
+    <change idref="r1" attribute="name" type="string" from="Resource 1" to="Tony" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:11:04.173Z" timestamp="2019-06-06T02:11:04.173Z">
+    <change idref="r1" attribute="unitsAvailable" type="real" from="1" to="0.199999988079071" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:54:25.873Z" timestamp="2019-06-06T02:54:25.873Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";;28800,43200,46800,61200;;;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:55:40.804Z" timestamp="2019-06-06T02:55:40.804Z">
+    <change idref="r1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";;32400,43200;;32400,43200;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:55:47.144Z" timestamp="2019-06-06T02:55:47.144Z">
+    <change idref="r1" attribute="standardHoursString" type="string" from=";;32400,43200;;32400,43200;;" to=";;32400,72000;;32400,43200;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:55:52.007Z" timestamp="2019-06-06T02:55:52.007Z">
+    <change idref="r1" attribute="standardHoursString" type="string" from=";;32400,72000;;32400,43200;;" to=";;32400,72000;;32400,72000;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:57:01.170Z" timestamp="2019-06-06T02:57:01.170Z">
+    <change idref="r1" attribute="unitsAvailable" type="real" from="0.199999988079071" to="1" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:57:22.724Z" timestamp="2019-06-06T02:57:22.724Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from=";;28800,43200,46800,61200;;;;" to=";;28800,72000;;;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:57:34.140Z" timestamp="2019-06-06T02:57:34.140Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from=";;28800,72000;;;;" to=";;32400,65700;;28800,72000;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:57:36.282Z" timestamp="2019-06-06T02:57:36.282Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from=";;32400,65700;;28800,72000;;" to=";;32400,64800;;28800,72000;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:57:40.739Z" timestamp="2019-06-06T02:57:40.739Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from=";;32400,64800;;28800,72000;;" to=";;32400,64800;;32400,64800;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Tony Nguyen" date="2019-06-06T02:57:44.157Z" timestamp="2019-06-06T02:57:44.157Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from=";;32400,64800;;32400,64800;;" to=";;11700,12600,32400,64800;;32400,64800;;" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Tony Nguyen" date="2019-06-06T01:25:20.918Z" timestamp="2019-06-06T01:25:20.918Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2019-06-06T01:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="$1,234.56" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Tony Nguyen" date="2019-06-06T01:56:58.997Z" timestamp="2019-06-06T01:56:58.997Z">
+    <change idref="m1" attribute="projectTitle" type="string" to="Developer Training" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

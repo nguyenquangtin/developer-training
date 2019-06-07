@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="lV-H46jjnJl">
+  <start-date>2019-06-06T01:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday"/>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="11700" end-time="12600"/>
+        <time-span start-time="32400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday"/>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="32400" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday"/>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>Tony</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday"/>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="32400" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday"/>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="32400" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday"/>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t42"/>
+    <child-task idref="t81"/>
+    <child-task idref="t116"/>
+    <child-task idref="t163"/>
+  </task>
+  <task id="t1">
+    <title>General Training</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-11T01:00:00.000Z</start-constraint-date>
+    <child-task idref="t3"/>
+    <child-task idref="t8"/>
+    <child-task idref="t166"/>
+    <child-task idref="t167"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-11T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t2">
+    <title>HTML/CSS</title>
+    <type>group</type>
+    <child-task idref="t11"/>
+    <child-task idref="t10"/>
+    <child-task idref="t28"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+  </task>
+  <task id="t3">
+    <title>Git </title>
+    <effort>14400</effort>
+    <start-constraint-date>2019-06-11T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2019-06-11T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t8">
+    <title>Github</title>
+    <effort>14400</effort>
+    <locked-start-date>2019-06-11T06:00:00.000Z</locked-start-date>
+    <start-constraint-date>2019-06-11T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2019-06-11T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>CSS</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-17T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t18"/>
+    <child-task idref="t24"/>
+    <child-task idref="t169"/>
+    <child-task idref="t32"/>
+    <style>
+      <value key="font-size">11</value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-17T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>HTML5</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-18T01:00:00.000Z</start-constraint-date>
+    <child-task idref="t13"/>
+    <child-task idref="t14"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-18T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>Basic</title>
+    <effort>3600</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+  </task>
+  <task id="t14">
+    <title>Senmantic HTML</title>
+    <effort>3600</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t13"/>
+  </task>
+  <task id="t15">
+    <title>SEO</title>
+    <effort>3600</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t14"/>
+  </task>
+  <task id="t16">
+    <title>Accessibility</title>
+    <effort>3600</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t15"/>
+  </task>
+  <task id="t18">
+    <title>Layout</title>
+    <type>group</type>
+    <child-task idref="t19"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+  </task>
+  <task id="t19">
+    <title>Float</title>
+    <effort>3600</effort>
+    <start-constraint-date>2019-06-18T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-18T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>Positioning</title>
+    <effort>3600</effort>
+    <start-constraint-date>2019-06-18T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t19"/>
+    <start-no-earlier-than>2019-06-18T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>Box Model</title>
+    <effort>3600</effort>
+    <start-constraint-date>2019-06-18T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t20"/>
+    <start-no-earlier-than>2019-06-18T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>CSS Grid</title>
+    <effort>3600</effort>
+    <start-constraint-date>2019-06-18T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t21"/>
+    <start-no-earlier-than>2019-06-18T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>Flex Box</title>
+    <effort>3600</effort>
+    <start-constraint-date>2019-06-18T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t22"/>
+    <start-no-earlier-than>2019-06-18T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t24">
+    <title>Media Query</title>
+    <schedule-type>alap</schedule-type>
+    <effort>3600</effort>
+    <end-constraint-date>2019-06-20T10:45:00.000Z</end-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <end-no-later-than>2019-06-20T10:45:00.000Z</end-no-later-than>
+  </task>
+  <task id="t28">
+    <title>ES6 </title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-06-20T03:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Theory + practical tips</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-20T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>CSS Pre-processors</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-20T09:45:00.000Z</start-constraint-date>
+    <child-task idref="t33"/>
+    <child-task idref="t34"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-20T09:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t33">
+    <title>SASS</title>
+    <schedule-type>alap</schedule-type>
+    <effort>3600</effort>
+    <end-constraint-date>2019-06-20T10:45:00.000Z</end-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <end-no-later-than>2019-06-20T10:45:00.000Z</end-no-later-than>
+  </task>
+  <task id="t34">
+    <title>Others</title>
+    <schedule-type>alap</schedule-type>
+    <effort>3600</effort>
+    <end-constraint-date>2019-06-20T10:45:00.000Z</end-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <end-no-later-than>2019-06-20T10:45:00.000Z</end-no-later-than>
+  </task>
+  <task id="t42">
+    <title>Frontend</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t43"/>
+    <child-task idref="t70"/>
+    <child-task idref="t47"/>
+    <child-task idref="t50"/>
+    <child-task idref="t57"/>
+    <child-task idref="t60"/>
+    <child-task idref="t64"/>
+    <child-task idref="t73"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t43">
+    <title>Build Tools</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t44"/>
+    <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t44">
+    <title>Linters</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t45"/>
+    <child-task idref="t46"/>
+    <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t45">
+    <title>Prettier</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t46">
+    <title>ESLint</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t47">
+    <title>Module Bundlers</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-02T02:00:00.000Z</start-constraint-date>
+    <child-task idref="t48"/>
+    <start-no-earlier-than>2019-07-02T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t48">
+    <title>Webpack</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t50">
+    <title>Framwork</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-04T02:45:00.000Z</start-constraint-date>
+    <child-task idref="t51"/>
+    <child-task idref="t54"/>
+    <start-no-earlier-than>2019-07-04T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>React</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-04T02:45:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-07-04T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t54">
+    <title>Vue.js</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-04T02:45:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-07-04T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t57">
+    <title>CSS in JS</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-09T02:15:00.000Z</start-constraint-date>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <start-no-earlier-than>2019-07-09T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>Styled Components - optional</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t59">
+    <title>CSS Modules</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t60">
+    <title>Testing your Apps</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-11T02:00:00.000Z</start-constraint-date>
+    <child-task idref="t61"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <start-no-earlier-than>2019-07-11T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>Jest</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t62">
+    <title>Enzyme</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t63">
+    <title>Cypress</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t64">
+    <title>Testing Theory</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-15T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+    <child-task idref="t67"/>
+    <start-no-earlier-than>2019-07-15T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>Unit</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t66">
+    <title>Integration</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t67">
+    <title>Functional</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t70">
+    <title>Type Checkers</title>
+    <type>group</type>
+    <start-constraint-date>2019-06-27T02:00:00.000Z</start-constraint-date>
+    <child-task idref="t71"/>
+    <child-task idref="t72"/>
+    <start-no-earlier-than>2019-06-27T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t71">
+    <title>TypeScript</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t72">
+    <title>Flow</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t73">
+    <title>Server Side Redering</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-18T02:30:00.000Z</start-constraint-date>
+    <child-task idref="t74"/>
+    <child-task idref="t76"/>
+    <child-task idref="t78"/>
+    <start-no-earlier-than>2019-07-18T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t74">
+    <title>React.js</title>
+    <type>group</type>
+    <child-task idref="t75"/>
+  </task>
+  <task id="t75">
+    <title>Next.js</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t76">
+    <title>Static Site Generators</title>
+    <type>group</type>
+    <child-task idref="t77"/>
+  </task>
+  <task id="t77">
+    <title>Gatsby JS - blog - netlify</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t78">
+    <title>Mobile App</title>
+    <type>group</type>
+    <child-task idref="t79"/>
+  </task>
+  <task id="t79">
+    <title>React Native</title>
+    <effort>0</effort>
+  </task>
+  <task id="t81">
+    <title>Backend</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-23T02:00:00.000Z</start-constraint-date>
+    <child-task idref="t84"/>
+    <child-task idref="t88"/>
+    <child-task idref="t91"/>
+    <child-task idref="t95"/>
+    <child-task idref="t102"/>
+    <child-task idref="t100"/>
+    <child-task idref="t109"/>
+    <child-task idref="t111"/>
+    <child-task idref="t114"/>
+    <child-task idref="t115"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-07-23T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t83">
+    <title>TypeScript</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t84">
+    <title>Scripting Language</title>
+    <type>group</type>
+    <child-task idref="t86"/>
+    <child-task idref="t83"/>
+  </task>
+  <task id="t86">
+    <title>Node.js</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t88">
+    <title>Package Manger</title>
+    <type>group</type>
+    <child-task idref="t89"/>
+  </task>
+  <task id="t89">
+    <title>npm</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t91">
+    <title>Testing</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-25T02:00:00.000Z</start-constraint-date>
+    <child-task idref="t93"/>
+    <start-no-earlier-than>2019-07-25T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t93">
+    <title>Mocha, Chai, Sinon, Mockery</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t95">
+    <title>Relational Database</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-25T10:45:00.000Z</start-constraint-date>
+    <child-task idref="t96"/>
+    <start-no-earlier-than>2019-07-25T10:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t96">
+    <title>MySQL</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-07-25T10:45:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-07-25T10:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t100">
+    <title>Authentication/ Authorization</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-01T02:15:00.000Z</start-constraint-date>
+    <child-task idref="t104"/>
+    <child-task idref="t105"/>
+    <child-task idref="t106"/>
+    <child-task idref="t107"/>
+    <child-task idref="t108"/>
+    <start-no-earlier-than>2019-08-01T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t102">
+    <title>NoSQL Database</title>
+    <type>group</type>
+    <start-constraint-date>2019-07-25T10:45:00.000Z</start-constraint-date>
+    <child-task idref="t103"/>
+    <start-no-earlier-than>2019-07-25T10:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t103">
+    <title>MongoDB</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t104">
+    <title>OAuth</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t105">
+    <title>Basic Authentication</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t106">
+    <title>Token Authentication</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t107">
+    <title>JWT</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t108">
+    <title>OpenID (optonal)</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t109">
+    <title>Search Engine </title>
+    <type>group</type>
+    <start-constraint-date>2019-07-25T02:30:00.000Z</start-constraint-date>
+    <child-task idref="t110"/>
+    <start-no-earlier-than>2019-07-25T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t110">
+    <title>ElasticSearch</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t111">
+    <title>Web Servers</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-06T02:15:00.000Z</start-constraint-date>
+    <child-task idref="t112"/>
+    <child-task idref="t113"/>
+    <start-no-earlier-than>2019-08-06T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t112">
+    <title>Apache</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t113">
+    <title>Nginx</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t114">
+    <title>Web Sockets</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-08-06T02:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-08-06T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t115">
+    <title>GraphQL</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-07-30T02:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-07-30T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t116">
+    <title>Devops</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-08T02:15:00.000Z</start-constraint-date>
+    <child-task idref="t117"/>
+    <child-task idref="t120"/>
+    <child-task idref="t141"/>
+    <child-task idref="t124"/>
+    <child-task idref="t128"/>
+    <child-task idref="t132"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-08-08T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t117">
+    <title>Language </title>
+    <type>group</type>
+    <child-task idref="t118"/>
+    <child-task idref="t119"/>
+  </task>
+  <task id="t118">
+    <title>Python/ruby</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t119">
+    <title>Golang</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t120">
+    <title>OS</title>
+    <type>group</type>
+    <child-task idref="t121"/>
+    <child-task idref="t122"/>
+  </task>
+  <task id="t121">
+    <title>Ubuntu</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t122">
+    <title>CentOS</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t124">
+    <title>CI/CD</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-12T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t125"/>
+    <child-task idref="t126"/>
+    <child-task idref="t127"/>
+    <start-no-earlier-than>2019-08-12T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t125">
+    <title>Jenkins</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t126">
+    <title>Travis CI</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t127">
+    <title>Circle CI</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t128">
+    <title>Cloud</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-12T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t129"/>
+    <child-task idref="t130"/>
+    <child-task idref="t131"/>
+    <start-no-earlier-than>2019-08-12T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t129">
+    <title>Digital Ocean/ Vultr</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t130">
+    <title>AWS</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t131">
+    <title>Google Cloud</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t132">
+    <title>Code Infurstructure</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-12T20:15:00.000Z</start-constraint-date>
+    <child-task idref="t133"/>
+    <child-task idref="t134"/>
+    <start-no-earlier-than>2019-08-12T20:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t133">
+    <title>Container</title>
+    <type>group</type>
+    <child-task idref="t135"/>
+  </task>
+  <task id="t134">
+    <title>Configurations</title>
+    <type>group</type>
+    <child-task idref="t137"/>
+  </task>
+  <task id="t135">
+    <title>Docker</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t137">
+    <title>Ansible</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t141">
+    <title>Deploying project</title>
+    <type>group</type>
+    <child-task idref="t142"/>
+    <child-task idref="t143"/>
+    <child-task idref="t144"/>
+    <child-task idref="t149"/>
+    <child-task idref="t155"/>
+  </task>
+  <task id="t142">
+    <title>bash script</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t143">
+    <title>monitoring</title>
+    <type>group</type>
+    <child-task idref="t146"/>
+    <child-task idref="t147"/>
+    <child-task idref="t153"/>
+  </task>
+  <task id="t144">
+    <title>Compliing</title>
+    <type>group</type>
+    <child-task idref="t148"/>
+  </task>
+  <task id="t146">
+    <title>top</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t147">
+    <title>htop</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t148">
+    <title>gcc, make</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t149">
+    <title>network</title>
+    <type>group</type>
+    <child-task idref="t150"/>
+  </task>
+  <task id="t150">
+    <title>ping</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t153">
+    <title>ps</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t155">
+    <title>Server</title>
+    <type>group</type>
+    <child-task idref="t156"/>
+    <child-task idref="t157"/>
+    <child-task idref="t158"/>
+    <child-task idref="t159"/>
+    <child-task idref="t160"/>
+  </task>
+  <task id="t156">
+    <title>Reverse Proxy</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t157">
+    <title>Forward Proxy</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t158">
+    <title>Caching</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t159">
+    <title>Load Balancer</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t160">
+    <title>FireWall</title>
+    <effort>28800</effort>
+  </task>
+  <task id="t163">
+    <title>Mobile</title>
+    <type>group</type>
+    <start-constraint-date>2019-08-15T02:00:00.000Z</start-constraint-date>
+    <child-task idref="t164"/>
+    <child-task idref="t165"/>
+    <start-no-earlier-than>2019-08-15T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t164">
+    <title>React Native</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-08-15T02:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-08-15T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t165">
+    <title>Flutter</title>
+    <effort>28800</effort>
+    <start-constraint-date>2019-08-20T02:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2019-08-20T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t166">
+    <title>SSH</title>
+    <effort>14400</effort>
+    <start-constraint-date>2019-06-13T02:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-13T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t167">
+    <title>Bassic Terminal</title>
+    <effort>14400</effort>
+    <start-constraint-date>2019-06-13T06:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.450688" g="0.831875" b="0.896"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-13T06:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t169">
+    <title>CSS Artchitecture - BEM</title>
+    <schedule-type>alap</schedule-type>
+    <effort>3600</effort>
+    <start-constraint-date>2019-06-06T17:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2019-06-20T10:45:00.000Z</end-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="1" g="0.728788" b="0.301"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2019-06-06T17:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2019-06-20T10:45:00.000Z</end-no-later-than>
+  </task>
+  <critical-path root="-1" enabled="true" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
