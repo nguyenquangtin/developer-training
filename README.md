@@ -3,7 +3,7 @@
 - Please check the (https://github.com/nguyenquangtin/developer-training/tree/master/OmniPlan) for the overall OmniPlan
 
 - Basic timeline for training will be something like this
-![timeline](https://github.com/nguyenquangtin/developer-training/tree/master/images/developer_training_gantt.jpg)
+![timeline](https://raw.githubusercontent.com/nguyenquangtin/developer-training/master/images/developer_training_gantt.jpg)
 
 ---------------------------------------------------------------------
 
