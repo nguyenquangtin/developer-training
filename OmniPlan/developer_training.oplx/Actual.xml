@@ -384,6 +384,11 @@
     <type>group</type>
     <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
     <child-task idref="t44"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t44">
@@ -392,18 +397,33 @@
     <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t45">
     <title>Prettier</title>
     <effort>28800</effort>
     <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t46">
     <title>ESLint</title>
     <effort>28800</effort>
     <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t47">
@@ -411,12 +431,22 @@
     <type>group</type>
     <start-constraint-date>2019-07-02T02:00:00.000Z</start-constraint-date>
     <child-task idref="t48"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-02T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t48">
     <title>Webpack</title>
     <effort>28800</effort>
     <start-constraint-date>2019-06-24T20:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-06-24T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t50">
@@ -425,18 +455,33 @@
     <start-constraint-date>2019-07-04T02:45:00.000Z</start-constraint-date>
     <child-task idref="t51"/>
     <child-task idref="t54"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-04T02:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t51">
     <title>React</title>
     <type>group</type>
     <start-constraint-date>2019-07-04T02:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-04T02:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t54">
     <title>Vue.js</title>
     <type>group</type>
     <start-constraint-date>2019-07-04T02:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-04T02:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t57">
@@ -445,15 +490,30 @@
     <start-constraint-date>2019-07-09T02:15:00.000Z</start-constraint-date>
     <child-task idref="t58"/>
     <child-task idref="t59"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-09T02:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t58">
     <title>Styled Components - optional</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t59">
     <title>CSS Modules</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t60">
     <title>Testing your Apps</title>
@@ -462,19 +522,39 @@
     <child-task idref="t61"/>
     <child-task idref="t62"/>
     <child-task idref="t63"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-11T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t61">
     <title>Jest</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t62">
     <title>Enzyme</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t63">
     <title>Cypress</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t64">
     <title>Testing Theory</title>
@@ -483,19 +563,39 @@
     <child-task idref="t65"/>
     <child-task idref="t66"/>
     <child-task idref="t67"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-15T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t65">
     <title>Unit</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t66">
     <title>Integration</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t67">
     <title>Functional</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t70">
     <title>Type Checkers</title>
@@ -503,15 +603,30 @@
     <start-constraint-date>2019-06-27T02:00:00.000Z</start-constraint-date>
     <child-task idref="t71"/>
     <child-task idref="t72"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-06-27T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t71">
     <title>TypeScript</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t72">
     <title>Flow</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t73">
     <title>Server Side Redering</title>
@@ -520,34 +635,69 @@
     <child-task idref="t74"/>
     <child-task idref="t76"/>
     <child-task idref="t78"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-18T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t74">
     <title>React.js</title>
     <type>group</type>
     <child-task idref="t75"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t75">
     <title>Next.js</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t76">
     <title>Static Site Generators</title>
     <type>group</type>
     <child-task idref="t77"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t77">
     <title>Gatsby JS - blog - netlify</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t78">
     <title>Mobile App</title>
     <type>group</type>
     <child-task idref="t79"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t79">
     <title>React Native</title>
     <effort>0</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
   </task>
   <task id="t81">
     <title>Backend</title>
@@ -573,48 +723,93 @@
   <task id="t83">
     <title>TypeScript</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t84">
     <title>Scripting Language</title>
     <type>group</type>
     <child-task idref="t86"/>
     <child-task idref="t83"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t86">
     <title>Node.js</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t88">
     <title>Package Manger</title>
     <type>group</type>
     <child-task idref="t89"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t89">
     <title>npm</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t91">
     <title>Testing</title>
     <type>group</type>
     <start-constraint-date>2019-07-25T02:00:00.000Z</start-constraint-date>
     <child-task idref="t93"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-25T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t93">
     <title>Mocha, Chai, Sinon, Mockery</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t95">
     <title>Relational Database</title>
     <type>group</type>
     <start-constraint-date>2019-07-25T10:45:00.000Z</start-constraint-date>
     <child-task idref="t96"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-25T10:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t96">
     <title>MySQL</title>
     <effort>28800</effort>
     <start-constraint-date>2019-07-25T10:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-25T10:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t100">
@@ -626,6 +821,11 @@
     <child-task idref="t106"/>
     <child-task idref="t107"/>
     <child-task idref="t108"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-08-01T02:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t102">
@@ -633,42 +833,87 @@
     <type>group</type>
     <start-constraint-date>2019-07-25T10:45:00.000Z</start-constraint-date>
     <child-task idref="t103"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-25T10:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t103">
     <title>MongoDB</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t104">
     <title>OAuth</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t105">
     <title>Basic Authentication</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t106">
     <title>Token Authentication</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t107">
     <title>JWT</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t108">
     <title>OpenID (optonal)</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t109">
     <title>Search Engine </title>
     <type>group</type>
     <start-constraint-date>2019-07-25T02:30:00.000Z</start-constraint-date>
     <child-task idref="t110"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-25T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t110">
     <title>ElasticSearch</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t111">
     <title>Web Servers</title>
@@ -676,26 +921,51 @@
     <start-constraint-date>2019-08-06T02:15:00.000Z</start-constraint-date>
     <child-task idref="t112"/>
     <child-task idref="t113"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-08-06T02:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t112">
     <title>Apache</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t113">
     <title>Nginx</title>
     <effort>28800</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
   </task>
   <task id="t114">
     <title>Web Sockets</title>
     <effort>28800</effort>
     <start-constraint-date>2019-08-06T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-08-06T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t115">
     <title>GraphQL</title>
     <effort>28800</effort>
     <start-constraint-date>2019-07-30T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-07-30T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t116">
@@ -720,6 +990,11 @@
     <type>group</type>
     <child-task idref="t118"/>
     <child-task idref="t119"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
   </task>
   <task id="t118">
     <title>Python/ruby</title>
@@ -734,6 +1009,11 @@
     <type>group</type>
     <child-task idref="t121"/>
     <child-task idref="t122"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
   </task>
   <task id="t121">
     <title>Ubuntu</title>
@@ -750,6 +1030,11 @@
     <child-task idref="t125"/>
     <child-task idref="t126"/>
     <child-task idref="t127"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-08-12T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t125">
@@ -771,6 +1056,11 @@
     <child-task idref="t129"/>
     <child-task idref="t130"/>
     <child-task idref="t131"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-08-12T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t129">
@@ -791,6 +1081,11 @@
     <start-constraint-date>2019-08-12T20:15:00.000Z</start-constraint-date>
     <child-task idref="t133"/>
     <child-task idref="t134"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
     <start-no-earlier-than>2019-08-12T20:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t133">
@@ -819,6 +1114,11 @@
     <child-task idref="t144"/>
     <child-task idref="t149"/>
     <child-task idref="t155"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.696209" g="0.400599" b="0.999"/>
+      </value>
+    </style>
   </task>
   <task id="t142">
     <title>bash script</title>

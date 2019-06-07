@@ -7,16 +7,16 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>344</split-view-divider-position>
-      <outline x="0" y="0" w="344" h="955">
+      <outline x="0" y="1163" w="344" h="955">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="229"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t109 t50 t102 t18 t133 t76 t111 t51 t43 t100 t10 t44 t134 t11 t32 t78 t74 t95 t163 t91"/>
+        <expanded-items idrefs="t109 t64 t32 t51 t149 t70 t133 t78 t84 t47 t102 t134 t91 t54 t73 t60 t1 t111 t2 t74 t42 t10 t143 t18 t155 t88 t43 t11 t116 t100 t81 t57 t76 t44 t144 t95 t50"/>
         <expanded-item-notes idrefs="t28"/>
         <selected-items-at-filter-time idrefs="t43 t168 t44 t88 t100 t119 t45 t93 t150 t89 t146 t169 t46 t50 t124 t51 t95 t47 t147 t48 t102 t96 t125 t148 t10 t54 t103 t130 t126 t11 t153 t149 t2 t12 t60 t3 t104 t131 t127 t4 t13 t57 t61 t5 t105 t14 t58 t62 t128 t132 t155 t8 t15 t59 t63 t110 t106 t20 t64 t133 t129 t16 t156 t160 t17 t65 t21 t111 t107 t22 t66 t18 t134 t70 t157 t23 t67 t19 t71 t112 t108 t24 t135 t72 t158 t25 t73 t69 t109 t113 t26 t74 t30 t163 t159 t27 t75 t31 t114 t137 t141 t28 t32 t164 t76 t29 t33 t115 t81 t77 t142 t34 t165 t78 t120 t83 t116 t79 t143 t166 t84 t117 t121 t144 t167 t42 t38 t86 t118 t39 t91 t122"/>
       </outline>
-      <gantt-view x="186.5" y="0" w="1244" h="955">
+      <gantt-view x="4" y="1163" w="1559" h="955">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
