@@ -1,5 +1,9 @@
 ## Welcome to Developer Training
 
+#Excercises for CSS - Flex and Grid
+- Flexboxfroggy [https://flexboxfroggy.com/]
+- CSS Grid Garden [https://cssgridgarden.com/]
+
 - Please check the (https://github.com/nguyenquangtin/developer-training/tree/master/OmniPlan) for the overall OmniPlan
 
 - Basic timeline for training will be something like this
