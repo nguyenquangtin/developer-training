@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2" file-format-version="2">
-  <window x="0" y="71" w="1920" h="1106">
+  <window x="0" y="71" w="1920" h="986">
     <editing-scenario>lV-H46jjnJl</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>344</split-view-divider-position>
-      <outline x="0" y="1163" w="344" h="955">
+      <outline x="0" y="11" w="344" h="835">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="229"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t109 t64 t32 t51 t149 t70 t133 t78 t84 t47 t102 t134 t91 t54 t73 t60 t1 t111 t2 t74 t42 t10 t143 t18 t155 t88 t43 t11 t116 t100 t81 t57 t76 t44 t144 t95 t50"/>
+        <expanded-items idrefs="t109 t64 t32 t51 t149 t70 t133 t78 t84 t47 t102 t134 t91 t54 t73 t60 t1 t111 t2 t74 t42 t10 t18 t155 t143 t88 t43 t116 t11 t100 t81 t57 t76 t44 t95 t144 t50"/>
         <expanded-item-notes idrefs="t28"/>
-        <selected-items-at-filter-time idrefs="t43 t168 t44 t88 t100 t119 t45 t93 t150 t89 t146 t169 t46 t50 t124 t51 t95 t47 t147 t48 t102 t96 t125 t148 t10 t54 t103 t130 t126 t11 t153 t149 t2 t12 t60 t3 t104 t131 t127 t4 t13 t57 t61 t5 t105 t14 t58 t62 t128 t132 t155 t8 t15 t59 t63 t110 t106 t20 t64 t133 t129 t16 t156 t160 t17 t65 t21 t111 t107 t22 t66 t18 t134 t70 t157 t23 t67 t19 t71 t112 t108 t24 t135 t72 t158 t25 t73 t69 t109 t113 t26 t74 t30 t163 t159 t27 t75 t31 t114 t137 t141 t28 t32 t164 t76 t29 t33 t115 t81 t77 t142 t34 t165 t78 t120 t83 t116 t79 t143 t166 t84 t117 t121 t144 t167 t42 t38 t86 t118 t39 t91 t122"/>
+        <selected-items-at-filter-time idrefs="t143 t73 t166 t58 t81 t66 t109 t132 t74 t155 t59 t121 t67 t144 t75 t167 t110 t83 t91 t133 t76 t156 t84 t122 t77 t10 t111 t134 t93 t157 t100 t78 t11 t86 t146 t79 t112 t169 t135 t20 t95 t158 t124 t13 t88 t147 t21 t96 t113 t14 t89 t22 t159 t102 t125 t15 t148 t23 t114 t160 t16 t137 t24 t103 t32 t126 t149 t115 t33 t18 t104 t34 t127 t150 t42 t19 t50 t116 t43 t105 t51 t28 t128 t44 t117 t163 t60 t45 t106 t2 t129 t61 t46 t3 t141 t54 t118 t164 t62 t70 t47 t107 t153 t130 t63 t48 t142 t119 t71 t165 t64 t8 t131 t72 t108 t57 t120 t65"/>
       </outline>
-      <gantt-view x="4" y="1163" w="1559" h="955">
+      <gantt-view x="0" y="11" w="1559" h="835">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
