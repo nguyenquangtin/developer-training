@@ -126,6 +126,7 @@
   <task id="t3">
     <title>Git </title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2019-06-11T01:00:00.000Z</start-constraint-date>
     <style>
       <value key="gantt-fill-color">
@@ -138,6 +139,7 @@
   <task id="t8">
     <title>Github</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <locked-start-date>2019-06-11T06:00:00.000Z</locked-start-date>
     <start-constraint-date>2019-06-11T06:00:00.000Z</start-constraint-date>
     <style>
@@ -149,7 +151,7 @@
     <start-no-earlier-than>2019-06-11T06:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t10">
-    <title>CSS</title>
+    <title>CSS 3 </title>
     <type>group</type>
     <start-constraint-date>2019-06-17T20:15:00.000Z</start-constraint-date>
     <child-task idref="t18"/>
@@ -183,6 +185,7 @@
     <title>Basic</title>
     <effort>3600</effort>
     <style>
+      <value key="font-size">14</value>
       <value key="gantt-fill-color">
         <color space="srgb" r="1" g="0.728788" b="0.301"/>
       </value>
@@ -1213,6 +1216,7 @@
   <task id="t166">
     <title>SSH</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2019-06-13T02:15:00.000Z</start-constraint-date>
     <style>
       <value key="gantt-fill-color">
@@ -1224,6 +1228,7 @@
   <task id="t167">
     <title>Bassic Terminal</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2019-06-13T06:45:00.000Z</start-constraint-date>
     <style>
       <value key="gantt-fill-color">
